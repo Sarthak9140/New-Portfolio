@@ -25,76 +25,275 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with user authentication, product management, shopping cart, and secure payment integration.",
-    details: "Built a comprehensive e-commerce platform from scratch with modern web technologies. Implemented advanced features like real-time inventory management, dynamic pricing, and personalized recommendations using machine learning algorithms. The platform handles thousands of concurrent users with optimized database queries and caching strategies.",
+    title: "Document Signature Platform",
+    description:
+      "DOC_SIGN – A modern digital document signing app built with Vite + React + SCSS, featuring login/register, PDF editing, and secure digital signing capabilities.",
+    details:
+      "DOC_SIGN** is a modern digital document signing platform built with **Vite**, **React**, and **Node.js**. It allows users to securely **upload, edit, and sign PDF documents online**, featuring authentication, cloud storage, and a smooth, responsive interface.",
     features: [
-      "Secure user authentication with JWT tokens",
-      "Product catalog with advanced filtering and search",
-      "Shopping cart with persistent sessions",
-      "Stripe payment integration with webhook handling",
-      "Admin dashboard for inventory management",
-      "Email notifications for orders and shipping",
-      "Responsive design for all device sizes",
-      "SEO optimized for better search rankings"
+      "User authentication and authorization",
+      "Upload any PDF file to sign",
+      "Normal Sign: Type your name and select from multiple fonts",
+      "Draw Sign: Draw your signature using a digital pad",
+      "Download or save the document with the signature embedded",
+      "Optimized for both desktop and mobile views with a clean, modern look",
+      "Responsive design for all devices",
     ],
     images: [
-      new URL("@/assets/project1-1.jpg", import.meta.url).href,
-      new URL("@/assets/project1-2.jpg", import.meta.url).href,
+      new URL("@/assets/Doc_sign/login.png", import.meta.url).href,
+      new URL("@/assets/Doc_sign/signing.png", import.meta.url).href,
+      new URL("@/assets/Doc_sign/signup.png", import.meta.url).href,
+      new URL("@/assets/Doc_sign/uploadPdf.png", import.meta.url).href,
     ],
-    githubUrl: "https://github.com/yourusername/ecommerce",
-    liveUrl: "https://ecommerce-demo.com",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
+    githubUrl: "https://github.com/Sarthak9140/DOC_SIGN-Client",
+    liveUrl: "https://doc-sign-client-1jja.vercel.app",
+    tags: ["Vite", "Node.js", "MongoDB", "SASS", "Express"],
   },
   {
     id: 2,
-    title: "Social Media App",
-    description: "Interactive social platform featuring real-time messaging, post sharing, likes, comments, and user profiles with responsive design.",
-    details: "Developed a feature-rich social media application that connects people through real-time interactions. Implemented WebSocket connections for instant messaging and live updates. The app uses advanced state management and optimistic UI updates for a seamless user experience.",
+    title: "Plant Doctor — Smart India Hackathon Project",
+    description:
+      "Plant Doctor is an AI-powered platform built with React, TypeScript, Vite, and Tailwind CSS that helps farmers and gardeners detect plant diseases, get AI-based treatment advice, and access real-time agricultural insights through a modern dashboard. ",
+    details:
+      "Plant Doctor is an AI-driven plant health analysis platform that empowers farmers and gardeners to identify plant diseases, receive treatment recommendations, and access real-time agricultural insights.Developed using React, TypeScript, and Tailwind CSS, the platform blends an intuitive user interface with powerful machine learning models and an integrated AI chatbot to deliver an intelligent and interactive experience.",
     features: [
-      "Real-time messaging with Socket.io",
-      "Post creation with image and video uploads",
-      "Like, comment, and share functionality",
-      "User profiles with customizable themes",
-      "Friend requests and connection management",
-      "News feed with intelligent content ranking",
-      "Story feature with 24-hour expiration",
-      "Push notifications for important updates"
+      "🌾 AI Disease Detection — Instantly identify plant diseases by uploading a leaf image",
+      "💬 AI Chatbot Assistance — Provides real-time advice, fertilizer suggestions, and crop guidance",
+      "📸 Camera & Upload Support — Capture live photos or upload existing images for analysis",
+      "🧠 ML-Powered Diagnosis — Utilizes trained machine learning models for accurate predictions",
+      "📊 Plant Health Dashboard — View detailed reports, treatment history, and personalized recommendations",
+      "🪴 Responsive Design — Fully optimized for desktop and mobile devices",
+      "🌍 Multi-Language Support (Optional) — Enhance accessibility for regional users",
     ],
     images: [
-      new URL("@/assets/project2-1.jpg", import.meta.url).href,
-      new URL("@/assets/project2-2.jpg", import.meta.url).href,
+      new URL("@/assets/plant/dashboard1.png", import.meta.url).href,
+      new URL("@/assets/plant/dashboard2.png", import.meta.url).href,
+      new URL("@/assets/plant/crop.png", import.meta.url).href,
+      new URL("@/assets/plant/login.png", import.meta.url).href,
+      new URL("@/assets/plant/chatbot.png", import.meta.url).href,
     ],
-    githubUrl: "https://github.com/yourusername/social-app",
-    liveUrl: "https://social-demo.com",
-    tags: ["React", "Express", "Socket.io", "PostgreSQL"],
+    githubUrl: "https://github.com/Sarthak9140/Plant-Doctor-SIH",
+    liveUrl: "https://plant-doctor-sih.vercel.app",
+    tags: [
+      "React (TypeScript) ",
+      "Vite",
+      "MongoDB",
+      "shadcn/ui",
+      "AI Chatbot",
+      "API Integration",
+    ],
   },
   {
     id: 3,
-    title: "Task Management System",
-    description: "Collaborative project management tool with kanban boards, team features, deadline tracking, and progress analytics.",
-    details: "Created an enterprise-level task management system designed for modern teams. Features drag-and-drop kanban boards, advanced analytics, and team collaboration tools. Integrated with popular productivity tools and provides detailed insights into project progress and team performance.",
+    title: "BMW UI ",
+    description:
+      "A dynamic, modern BMW-inspired user interface built with React, TypeScript, and Tailwind CSS. This project includes an interactive 360° car view, smooth animations, and an integrated AI chatbot for real-time user interaction.",
+    details:
+      "A dynamic, modern BMW-inspired user interface built with React, TypeScript, and Tailwind CSS. This project includes an interactive 360° car view, smooth animations, and an integrated AI chatbot for real-time user interaction.",
     features: [
-      "Kanban board with drag-and-drop functionality",
-      "Team collaboration with role-based permissions",
-      "Deadline tracking with automated reminders",
-      "Progress analytics and reporting dashboards",
-      "File attachments and comments on tasks",
-      "Time tracking and productivity metrics",
-      "Integration with Slack and email",
-      "Custom workflows and automation rules"
+      "🚗 360° Car View — Fully interactive rotation and zoom for BMW models",
+      "🖱️ Dynamic Cursor Effects — Smooth transitions and motion effects",
+      "🎨 Responsive Design — Fully optimized for all screen sizes",
+      "⚙️ TypeScript-Powered — Reliable, maintainable, and type-safe codebase",
     ],
     images: [
-      new URL("@/assets/project3-1.jpg", import.meta.url).href,
-      new URL("@/assets/project3-2.jpg", import.meta.url).href,
+      new URL("@/assets/bmw/dashboard.png", import.meta.url).href,
+      new URL("@/assets/bmw/dashboard2.png", import.meta.url).href,
+      new URL("@/assets/bmw/dashboard3.png", import.meta.url).href,
     ],
-    githubUrl: "https://github.com/yourusername/task-manager",
+    githubUrl: "https://github.com/Sarthak9140/BMW-UI",
+    liveUrl: "https://bmw-ui-taupe.vercel.app",
+    tags: [
+      "React (TypeScript) ",
+      "Vite",
+      "MongoDB",
+      "shadcn/ui",
+      "Tailwind CSS",
+    ],
+  },
+  {
+    id: 4,
+    title: "DevLinks Web Application",
+    description:
+      "DevLinks is a responsive app built with **React** and **Vite** that lets users **add, edit, and preview social links** with **auto-save** and optional **backend support.",
+    details:
+      "DevLinks is a modern, interactive platform where you can customize and manage your social media links all in one place — with a live mobile preview UI.Designed for developers, creators, and professionals who want to share multiple profiles quickly.",
+    features: [
+      "Real-time Add/edit/remove multiple social/profile links",
+      "Choose from popular platforms (GitHub, LinkedIn, YouTube, etc.)",
+      "Live mobile preview while editing",
+      "Auto-save to localStorage",
+      "Clean and responsive design",
+      "Optional backend (Node.js + MongoDB) support for persistent storage",
+    ],
+    images: [
+      new URL("@/assets/devlink/home.png", import.meta.url).href,
+      new URL("@/assets/devlink/login.png", import.meta.url).href,
+      new URL("@/assets/devlink/oneLink.png", import.meta.url).href,
+      new URL("@/assets/devlink/preview.png", import.meta.url).href,
+      new URL("@/assets/devlink/register.png", import.meta.url).href,
+      new URL("@/assets/devlink/twolink.png", import.meta.url).href,
+    ],
+    githubUrl: "https://github.com/Sarthak9140/NewsMonkey",
+    liveUrl:
+      " https://devlinks-client-g1tt-e4we94v2g-sarthak9140s-projects.vercel.app/",
+    tags: ["Vite", "Node.js", "MongoDB", "SASS", "Express"],
+  },
+  {
+    id: 5,
+    title: "Bug Tracker System",
+    description:
+      "Bug Tracker is a full-stack web app built with React, Node.js, and MongoDB that allows users to report, manage, and track bugs with authentication, real-time updates, and role-based access control.",
+    details:
+      "A full-stack Bug Tracking System built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). This project allows users to report, track, assign, and resolve bugs efficiently in real-time. It is ideal for teams working on software projects who need a centralized platform for managing and monitoring application issues.",
+    features: [
+      "Authentication: Register & login with secure JWT tokens",
+      "Bug Management: Add, edit, delete bugs with title, description, priority, and status",
+      "User Management: Assign bugs to registered users",
+      "Real-time Updates: Changes reflect instantly with optimized API calls",
+      "Filtering & Sorting: Search bugs by title, priority, status, and more",
+      "Role-based Access (Optional): Admin vs regular user permissions",
+      "Clean and responsive design",
+    ],
+    images: [
+      new URL("@/assets/BugTracker/Bug_list.png", import.meta.url).href,
+      new URL("@/assets/BugTracker/create_bug.png", import.meta.url).href,
+      new URL("@/assets/BugTracker/Edit_bug.png", import.meta.url).href,
+      new URL("@/assets/BugTracker/login.png", import.meta.url).href,
+      new URL("@/assets/BugTracker/Register.png", import.meta.url).href,
+      new URL("@/assets/BugTracker/view_bugs.png", import.meta.url).href,
+    ],
+    githubUrl: "https://github.com/Sarthak9140/Bug-Tracker",
     liveUrl: "https://tasks-demo.com",
     tags: ["React", "Node.js", "MongoDB", "Redux"],
   },
+
+  {
+    id: 6,
+    title: "Note Hub",
+    description:
+      "NoteHub is a full-stack note management system built using the MERN stack (MongoDB, Express.js, React, Node.js). It enables users to register, login, create personal notes with images, and manage them through an intuitive dashboard.",
+    details:
+      "NoteHub is a full-stack note management system built using the MERN stack (MongoDB, Express.js, React, Node.js). It enables users to register, login, create personal notes with images, and manage them through an intuitive dashboard.",
+    features: [
+      "🔐 Authentication: Secure JWT-based login & signup",
+      "🗂️ Notes CRUD: Create, Read, Update, Delete personal notes",
+      "🖼️ Image Upload: Upload and preview images with your notes",
+      "📱 Responsive UI: Styled with SCSS, optimized for mobile and desktop",
+      " 📄 Card Grid: Clean 3-column layout for note cards",
+      "📸 Dynamic Media: Notes can include visual content for better recall",
+    ],
+    images: [
+      new URL("@/assets/note/Add.png", import.meta.url).href,
+      new URL("@/assets/note/dashboard.png", import.meta.url).href,
+      new URL("@/assets/note/edit.png", import.meta.url).href,
+      new URL("@/assets/note/note.png", import.meta.url).href,
+      new URL("@/assets/note/register.png", import.meta.url).href,
+      new URL("@/assets/note/login.png", import.meta.url).href,
+    ],
+    githubUrl: "https://github.com/Sarthak9140/Note-Hub",
+    liveUrl: "https://vercel.com/sarthak9140s-projects/note-hub",
+    tags: [
+      "React Vite ",
+      "Node.js",
+      "MongoDB",
+      "Express js",
+      "JWT Auth",
+      "Multer for Image Upload",
+      "SCSS",
+    ],
+  },
+  {
+    id: 7,
+    title: "News Hub",
+    description:
+      "A modern news application built with React and SCSS that delivers up-to-date international news from a reliable API. It features dynamic content updates, responsive design, and an intuitive interface, allowing users to browse global headlines, read detailed articles, and stay informed with the latest events happening around the world.",
+    details:
+      "A modern news application built with React and SCSS that delivers up-to-date international news from a reliable API. It features dynamic content updates, responsive design, and an intuitive interface, allowing users to browse global headlines, read detailed articles, and stay informed with the latest events happening around the world.",
+    features: [
+      "🔹 Live and updated international news fetched via API",
+      "🔹 Category-wise news sections (Business, Sports, Technology, Health, etc.)",
+      "🔹 Loading bar or spinner while fetching news",
+      "🔹 Secure API key management using environment variables",
+      "🔹 Modern UI built with React and SCSS / Bootstrap",
+      "🔹 Fast performance and optimized builds for deployment",
+      "🔹 Pagination for browsing multiple pages of news",
+    ],
+    images: [
+      new URL("@/assets/News/dashboard.png", import.meta.url).href,
+      new URL("@/assets/News/image.png", import.meta.url).href,
+      new URL("@/assets/News/News.png", import.meta.url).href,
+    ],
+    githubUrl: "https://github.com/Sarthak9140/NewsMonkey",
+    liveUrl: "https://github.com/Sarthak9140/NewsMonkey",
+    tags: [
+      "React ",
+      "API Integration",
+      "Responsive Design",
+      "Dynamic Content Updates",
+      "SCSS",
+    ],
+  },
+  {
+    id: 8,
+    title: "Shifra Virtual Assistant",
+    description:
+      "Shifra is a voice-controlled virtual assistant built using HTML, CSS, and JavaScript. It uses the Web Speech API to recognize spoken commands and respond via speech synthesis. Designed as a personal browser-based assistant, Shifra can greet you, open websites, tell the time or date, and much more.",
+    details:
+      "Shifra is a voice-controlled virtual assistant built using HTML, CSS, and JavaScript. It uses the Web Speech API to recognize spoken commands and respond via speech synthesis. Designed as a personal browser-based assistant, Shifra can greet you, open websites, tell the time or date, and much more.",
+    features: [
+      "🎤 Voice Recognition: Listens and processes your voice using Web Speech API.",
+      "🗣️ Speech Output: Speaks back using Speech Synthesis API.",
+      "🕐 Greets Based on Time: Good Morning / Afternoon / Evening / Night.",
+      "🔗 Quick Access to Sites: Opens YouTube, Google, Instagram, WhatsApp, Calculator, etc.",
+      "📅 Tells Time and Date: Responds with real-time data.",
+      "❤️ Conversational Responses: Reacts to phrases like I love you, thank you, who are you , etc.",
+      "🔎 Smart Fallback: Searches Google when no command matches.",
+    ],
+    images: [
+      new URL("@/assets/assistant/dashboard.png", import.meta.url).href,
+      new URL("@/assets/assistant/image.png", import.meta.url).href,
+      new URL("@/assets/assistant/voice.png", import.meta.url).href,
+    ],
+    githubUrl: "https://github.com/Sarthak9140/Shifra_Assistant",
+    liveUrl: "https://shifra-assistant.vercel.app",
+    tags: ["HTML ", "CSS", "JavaScript", "Web Speech API"],
+  },
+  {
+    id: 9,
+    title: "Foodie - Where Flavor Meets Experience",
+    description:
+      "Welcome to Foodie, the ultimate destination for food lovers! Our platform allows users to seamlessly book tables and order lunch at suitable prices, ensuring an exceptional dining experience.",
+    details:
+      "Welcome to Foodie, the ultimate destination for food lovers! Our platform allows users to seamlessly book tables and order lunch at suitable prices, ensuring an exceptional dining experience.",
+    features: [
+      "Table Booking: Reserve a table at your favorite restaurant effortlessly.",
+      "Lunch Ordering: Browse the menu and order delicious meals at affordable prices.",
+      "User-Friendly Interface: Enjoy a seamless and interactive experience.",
+      "Responsive Design: Optimized for desktops, tablets, and mobile devices.",
+    ],
+    images: [
+      new URL("@/assets/restraunt/restraunt.png", import.meta.url).href,
+      new URL("@/assets/restraunt/category.png", import.meta.url).href,
+      new URL("@/assets/restraunt/desc.png", import.meta.url).href,
+      new URL("@/assets/restraunt/offer.png", import.meta.url).href,
+      new URL("@/assets/restraunt/list.png", import.meta.url).href,
+      new URL("@/assets/restraunt/review.png", import.meta.url).href,
+      new URL("@/assets/restraunt/footer.png", import.meta.url).href,
+    ],
+    githubUrl: "https://github.com/Sarthak9140/Restaurant-",
+    liveUrl: "https://foodie-pi.vercel.app",
+    tags: ["HTML ", "CSS", "JavaScript", "Responsive Design", "UI/UX"],
+  },
 ];
 
-const ProjectCard = ({ project, onOpenDetails }: { project: Project; onOpenDetails: (project: Project) => void }) => {
+const ProjectCard = ({
+  project,
+  onOpenDetails,
+}: {
+  project: Project;
+  onOpenDetails: (project: Project) => void;
+}) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -116,7 +315,7 @@ const ProjectCard = ({ project, onOpenDetails }: { project: Project; onOpenDetai
     >
       <Card className="group overflow-hidden bg-card border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-glow-primary flex flex-col h-full">
         {/* Image Carousel */}
-        <div 
+        <div
           className="relative h-64 overflow-hidden cursor-pointer"
           onClick={() => onOpenDetails(project)}
         >
@@ -133,7 +332,7 @@ const ProjectCard = ({ project, onOpenDetails }: { project: Project; onOpenDetai
               transition={{ duration: 0.5 }}
             />
           ))}
-          
+
           {/* Gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
@@ -154,7 +353,7 @@ const ProjectCard = ({ project, onOpenDetails }: { project: Project; onOpenDetai
 
         {/* Content */}
         <div className="p-6 flex flex-col flex-grow">
-          <h3 
+          <h3
             className="text-2xl font-bold mb-3 text-foreground group-hover:text-primary transition-colors cursor-pointer"
             onClick={() => onOpenDetails(project)}
           >
@@ -163,7 +362,7 @@ const ProjectCard = ({ project, onOpenDetails }: { project: Project; onOpenDetai
           <p className="text-muted-foreground mb-4 leading-relaxed flex-grow">
             {project.description}
           </p>
-          
+
           {/* Tags */}
           <div className="flex flex-wrap gap-2 mb-4">
             {project.tags.map((tag) => (
@@ -184,7 +383,12 @@ const ProjectCard = ({ project, onOpenDetails }: { project: Project; onOpenDetai
               className="flex-1 border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
               asChild
             >
-              <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
+              >
                 <Github className="h-4 w-4 mr-2" />
                 GitHub
               </a>
@@ -194,13 +398,18 @@ const ProjectCard = ({ project, onOpenDetails }: { project: Project; onOpenDetai
               className="flex-1 bg-gradient-to-r from-primary to-secondary text-primary-foreground hover:opacity-90 transition-all duration-300"
               asChild
             >
-              <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+              <a
+                href={project.liveUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
+              >
                 <ExternalLink className="h-4 w-4 mr-2" />
                 Live Demo
               </a>
             </Button>
           </div>
-          
+
           {/* View Details Button */}
           <Button
             variant="ghost"
@@ -216,7 +425,15 @@ const ProjectCard = ({ project, onOpenDetails }: { project: Project; onOpenDetai
   );
 };
 
-const ProjectDetailsDialog = ({ project, open, onOpenChange }: { project: Project | null; open: boolean; onOpenChange: (open: boolean) => void }) => {
+const ProjectDetailsDialog = ({
+  project,
+  open,
+  onOpenChange,
+}: {
+  project: Project | null;
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+}) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -255,7 +472,7 @@ const ProjectDetailsDialog = ({ project, open, onOpenChange }: { project: Projec
                 transition={{ duration: 0.5 }}
               />
             ))}
-            
+
             {/* Image indicators */}
             <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
               {project.images.map((_, index) => (
@@ -286,19 +503,29 @@ const ProjectDetailsDialog = ({ project, open, onOpenChange }: { project: Projec
 
           {/* Description */}
           <div>
-            <h3 className="text-xl font-semibold mb-3 text-foreground">Overview</h3>
-            <p className="text-muted-foreground leading-relaxed">{project.description}</p>
+            <h3 className="text-xl font-semibold mb-3 text-foreground">
+              Overview
+            </h3>
+            <p className="text-muted-foreground leading-relaxed">
+              {project.description}
+            </p>
           </div>
 
           {/* Detailed Description */}
           <div>
-            <h3 className="text-xl font-semibold mb-3 text-foreground">Details</h3>
-            <p className="text-muted-foreground leading-relaxed">{project.details}</p>
+            <h3 className="text-xl font-semibold mb-3 text-foreground">
+              Details
+            </h3>
+            <p className="text-muted-foreground leading-relaxed">
+              {project.details}
+            </p>
           </div>
 
           {/* Features */}
           <div>
-            <h3 className="text-xl font-semibold mb-4 text-foreground">Key Features</h3>
+            <h3 className="text-xl font-semibold mb-4 text-foreground">
+              Key Features
+            </h3>
             <div className="grid md:grid-cols-2 gap-3">
               {project.features.map((feature, index) => (
                 <motion.div
@@ -309,7 +536,9 @@ const ProjectDetailsDialog = ({ project, open, onOpenChange }: { project: Projec
                   className="flex items-start gap-3 p-3 rounded-lg bg-muted/50 border border-border hover:border-primary/50 transition-colors"
                 >
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span className="text-sm text-muted-foreground">{feature}</span>
+                  <span className="text-sm text-muted-foreground">
+                    {feature}
+                  </span>
                 </motion.div>
               ))}
             </div>
@@ -321,7 +550,11 @@ const ProjectDetailsDialog = ({ project, open, onOpenChange }: { project: Projec
               className="flex-1 bg-gradient-to-r from-primary to-secondary text-primary-foreground hover:opacity-90 transition-all duration-300"
               asChild
             >
-              <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+              <a
+                href={project.liveUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <ExternalLink className="h-5 w-5 mr-2" />
                 View Live Demo
               </a>
@@ -331,7 +564,11 @@ const ProjectDetailsDialog = ({ project, open, onOpenChange }: { project: Projec
               className="flex-1 border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
               asChild
             >
-              <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Github className="h-5 w-5 mr-2" />
                 View on GitHub
               </a>
@@ -366,20 +603,25 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Here are some of my recent works showcasing my expertise in full-stack development
+            Here are some of my recent works showcasing my expertise in
+            full-stack development
           </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
-            <ProjectCard key={project.id} project={project} onOpenDetails={handleOpenDetails} />
+            <ProjectCard
+              key={project.id}
+              project={project}
+              onOpenDetails={handleOpenDetails}
+            />
           ))}
         </div>
       </div>
 
-      <ProjectDetailsDialog 
-        project={selectedProject} 
-        open={isDialogOpen} 
+      <ProjectDetailsDialog
+        project={selectedProject}
+        open={isDialogOpen}
         onOpenChange={setIsDialogOpen}
       />
     </section>

@@ -7,13 +7,13 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com/yourusername",
+      href: "https://github.com/Sarthak9140",
       label: "GitHub",
       color: "hover:text-primary hover:shadow-glow-primary",
     },
     {
       icon: Linkedin,
-      href: "https://linkedin.com/in/yourusername",
+      href: "https://www.linkedin.com/in/sarthak-singh-9523a7287",
       label: "LinkedIn",
       color: "hover:text-secondary hover:shadow-glow-secondary",
     },
@@ -77,9 +77,7 @@ const Footer = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mt-8 pt-8 border-t border-border/30 text-center text-sm text-muted-foreground"
         >
-          <p>
-            Designed & Built by Sarthak Singh | MERN Stack Developer
-          </p>
+          <p>Designed & Built by Sarthak Singh | MERN Stack Developer</p>
         </motion.div>
       </div>
     </footer>

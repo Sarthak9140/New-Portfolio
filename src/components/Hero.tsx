@@ -133,7 +133,7 @@ const Hero = () => {
               className="flex gap-4 mt-8 justify-center md:justify-start"
             >
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Sarthak9140"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full border border-foreground/20 hover:border-primary hover:shadow-glow-primary transition-all duration-300"
@@ -141,7 +141,7 @@ const Hero = () => {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/sarthak-singh-9523a7287"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full border border-foreground/20 hover:border-secondary hover:shadow-glow-secondary transition-all duration-300"
