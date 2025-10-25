@@ -220,7 +220,7 @@ const projects: Project[] = [
       "🔹 Pagination for browsing multiple pages of news",
     ],
     images: [
-      new URL("@/assets/News/dashboard.png", import.meta.url).href,
+      new URL("@/assets/News/Dashboard.png", import.meta.url).href,
       new URL("@/assets/News/image.png", import.meta.url).href,
       new URL("@/assets/News/News.png", import.meta.url).href,
     ],
@@ -251,7 +251,7 @@ const projects: Project[] = [
       "🔎 Smart Fallback: Searches Google when no command matches.",
     ],
     images: [
-      new URL("@/assets/assistant/dashboard.png", import.meta.url).href,
+      new URL("@/assets/assistant/Dashboard.png", import.meta.url).href,
       new URL("@/assets/assistant/image.png", import.meta.url).href,
       new URL("@/assets/assistant/voice.png", import.meta.url).href,
     ],
