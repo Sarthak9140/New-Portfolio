@@ -38,9 +38,7 @@ const Footer = () => {
             className="text-muted-foreground text-center md:text-left"
           >
             <p className="flex items-center gap-2">
-              © {currentYear} Sarthak Singh. Made with{" "}
-              <Heart className="h-4 w-4 text-primary animate-glow-pulse" /> and
-              clean code
+              © {currentYear} Sarthak Singh
             </p>
           </motion.div>
 

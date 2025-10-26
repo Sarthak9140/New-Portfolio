@@ -5,17 +5,20 @@ const features = [
   {
     icon: Code2,
     title: "Full-Stack Development",
-    description: "Proficient in MERN stack with expertise in building scalable web applications from concept to deployment.",
+    description:
+      "Proficient in MERN stack with expertise in building scalable web applications from concept to deployment.",
   },
   {
     icon: Palette,
     title: "UI/UX Focus",
-    description: "Strong emphasis on creating beautiful, intuitive interfaces that users love to interact with.",
+    description:
+      "Strong emphasis on creating beautiful, intuitive interfaces that users love to interact with.",
   },
   {
     icon: Sparkles,
     title: "Innovation Driven",
-    description: "Passionate about learning new technologies and implementing creative solutions to complex problems.",
+    description:
+      "Passionate about learning new technologies and implementing creative solutions to complex problems.",
   },
 ];
 
@@ -41,22 +44,29 @@ const About = () => {
           </h2>
           <div className="max-w-3xl mx-auto space-y-4 text-lg text-foreground/90 leading-relaxed">
             <p>
-              Hey there! I'm <span className="text-primary font-semibold">Sarthak Singh</span>, 
-              a passionate MERN Stack Developer who believes that great code is an art form. 
-              My journey into the world of web development started with a simple curiosity about 
-              how websites work, and it has evolved into a deep love for creating digital experiences 
-              that are both functional and beautiful.
+              Hey there! I'm{" "}
+              <span className="text-primary font-semibold">Sarthak Singh</span>,
+              a passionate MERN Stack Developer who believes that great code is
+              a blend of logic, creativity, and purpose.
             </p>
             <p>
-              I specialize in building full-stack applications using MongoDB, Express.js, React, 
-              and Node.js. But beyond the technical stack, what drives me is the intersection of 
-              logic and creativity. I'm constantly exploring new technologies, design patterns, and 
-              best practices to deliver solutions that not only meet requirements but exceed expectations.
+              I specialize in developing full-stack web applications using
+              MongoDB, Express.js, React, and Node.js. Beyond the technical
+              stack, I’m driven by the desire to craft solutions that are not
+              only functional but also intuitive, efficient, and visually
+              engaging.
             </p>
             <p>
-              When I'm not coding, you'll find me exploring the latest tech trends, contributing to 
-              open-source projects, or brainstorming innovative ideas for the next big thing. 
-              I believe in continuous growth, collaboration, and building products that make a difference.
+              I’m currently seeking an entry-level opportunity where I can
+              contribute my skills, learn from experienced professionals, and
+              grow as a developer while delivering impactful solutions.
+            </p>
+            <p>
+              When I’m not coding, you’ll find me exploring the latest tech
+              trends, contributing to open-source projects, or brainstorming
+              innovative ideas for the next big thing. I believe in continuous
+              learning, collaboration, and building technology that makes a real
+              difference.
             </p>
           </div>
         </motion.div>
@@ -77,8 +87,12 @@ const About = () => {
                 <div className="mb-4 inline-block p-3 rounded-xl bg-primary/10 text-primary group-hover:shadow-glow-primary transition-all duration-300">
                   <feature.icon className="h-8 w-8" />
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-foreground">{feature.title}</h3>
-                <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
+                <h3 className="text-xl font-bold mb-3 text-foreground">
+                  {feature.title}
+                </h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  {feature.description}
+                </p>
               </div>
             </motion.div>
           ))}

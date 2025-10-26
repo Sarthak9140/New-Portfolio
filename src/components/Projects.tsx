@@ -29,7 +29,7 @@ const projects: Project[] = [
     description:
       "DOC_SIGN – A modern digital document signing app built with Vite + React + SCSS, featuring login/register, PDF editing, and secure digital signing capabilities.",
     details:
-      "DOC_SIGN** is a modern digital document signing platform built with **Vite**, **React**, and **Node.js**. It allows users to securely **upload, edit, and sign PDF documents online**, featuring authentication, cloud storage, and a smooth, responsive interface.",
+      "DOC_SIGN  is a modern digital document signing platform built with  Vite ,  React , and  Node.js . It allows users to securely  upload, edit, and sign PDF documents online , featuring authentication, cloud storage, and a smooth, responsive interface.",
     features: [
       "User authentication and authorization",
       "Upload any PDF file to sign",
@@ -115,7 +115,7 @@ const projects: Project[] = [
     id: 4,
     title: "DevLinks Web Application",
     description:
-      "DevLinks is a responsive app built with **React** and **Vite** that lets users **add, edit, and preview social links** with **auto-save** and optional **backend support.",
+      "DevLinks is a responsive app built with React vite that lets users add, edit, and preview social links with auto-save and optional backend support.",
     details:
       "DevLinks is a modern, interactive platform where you can customize and manage your social media links all in one place — with a live mobile preview UI.Designed for developers, creators, and professionals who want to share multiple profiles quickly.",
     features: [
